@@ -2,11 +2,11 @@
 
 A machine learning project for predicting smartphone prices using data preprocessing and machine learning models.
 
-## 📋 Overview
+## Overview
 
 This project analyzes smartphone specifications and market data to build a predictive model that can estimate smartphone prices. The project includes data preprocessing, exploratory analysis, and training of machine learning models using CatBoost.
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 smathphone_price/
@@ -21,7 +21,7 @@ smathphone_price/
 └── README.md                        # This file
 ```
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 
@@ -44,7 +44,7 @@ cd smathphone_price
 pip install jupyter pandas scikit-learn catboost numpy matplotlib seaborn
 ```
 
-## 📊 Dataset
+## Dataset
 
 The project uses smartphone data with the following pipeline:
 
@@ -55,7 +55,7 @@ The project uses smartphone data with the following pipeline:
    - Processed dataset with handled missing values and normalized features
    - Ready for model training
 
-## 📖 Workflow
+## Workflow
 
 ### 1. Data Preprocessing
 Start with `preprocessing/preprocessing.ipynb`:
@@ -72,7 +72,7 @@ Continue with `training/price_predicition.ipynb`:
 - Evaluate model performance
 - Generate training logs in `training/catboost_info/`
 
-## 🛠️ Technologies Used
+## Technologies Used
 
 - **Python**: Core programming language
 - **Pandas**: Data manipulation and analysis
@@ -80,14 +80,14 @@ Continue with `training/price_predicition.ipynb`:
 - **CatBoost**: Gradient boosting framework for price prediction
 - **Jupyter Notebook**: Interactive development environment
 
-## 📈 Model
+## Model
 
 The project uses **CatBoost** (Categorical Boosting), a gradient boosting framework that:
 - Handles categorical features efficiently
 - Provides robust predictions
 - Generates detailed training logs for analysis
 
-## 💡 Usage
+## Usage
 
 1. Open Jupyter Notebook:
    ```bash
@@ -100,17 +100,11 @@ The project uses **CatBoost** (Categorical Boosting), a gradient boosting framew
 
 3. The trained model and predictions will be available after running the training notebook
 
-## 📝 Notes
-
-- Ensure you run the preprocessing notebook before the training notebook
-- The training process generates logs in the `training/catboost_info/` directory
-- Model performance metrics and visualizations are included in the training notebook
-
-## 📄 License
+## License
 
 This project is open source and available for educational and research purposes.
 
-## 👨‍💻 Author
+## Author
 
 [carmele9](https://github.com/carmele9)
 
